@@ -1,0 +1,13 @@
+git clone https://github.com/marco-ye/Louplus.git
+ls
+cd Louplus
+wget https://labfile.oss.aliyuncs.com/courses/1330/linux.png\nwget https://labfile.oss.aliyuncs.com/courses/1330/python1.png\nwget https://labfile.oss.aliyuncs.com/courses/1330/python2.png\nwget https://labfile.oss.aliyuncs.com/courses/1330/git.png
+ls
+git add --all
+git commit
+git config --global user.name "marco-Ye"
+git config --global user.email "marco_84023@163.com"
+git commit
+git commit -m "study Img"
+git remote add studyImg https://github.com/marco-ye/Louplus.git
+git push studyImg master
